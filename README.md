@@ -1,31 +1,20 @@
-# kwin4_effects_foldpopups
-KWin popup effect like Windows 11 and Cinnamon Desktop Evironment.
+# kwin-effect-foldpopups
+Kwin folding popups effect
 # Preview
-![foldpopus](readme_assets/preview.gif)  
-  
-**Now it supports folding from cursor's position**  
-
-![Fold from cursor Position](readme_assets/folding_from_cursor_position.gif)
-
-
 
 # Install
-To install the effect to your system, you can use the install script.
-```bash
-# Clone the repository
-git clone https://github.com/kde-yyds/kwin4_effects_foldpopups/
-# Change your directory
-cd kwin4_effects_foldpopups
-# Run install.sh
-./install.sh
+## Clone this repository
 ```
-
-Or, do a manual install:
-```bash
-# Clone the repository
-git clone https://github.com/kde-yyds/kwin4_effects_foldpopups/
-# Create the effects folder if it doesn't exists
-mkdir -p ~/.local/share/kwin/effects/
-# Copy the necessary files to effects directory
-cp -r kwin4_effects_foldpopups/kwin4_effects_foldpopups/ ~/.local/share/kwin/effects/
+git clone --depth=1 https://github.com/kde-yyds/kwin-effect-foldingpopups
+```
+## Install
+To install it for current user, directly run the script
+```
+cd kwin-effect-foldingpopups
+bash ./install.sh
+```
+To install globally, run as root
+```
+cd kwin-effect-foldingpopups
+sudo bash ../install.sh
 ```
