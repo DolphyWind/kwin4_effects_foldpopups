@@ -1,4 +1,4 @@
-# kwin-effect-foldpopups
+# kwin-effect-foldingpopups
 Kwin folding popups effect
 # Preview
 [foldingpopups.webm](https://github.com/user-attachments/assets/1f3b520e-9b29-421e-84a5-970547fc66ce)
