@@ -17,5 +17,5 @@ bash ./install.sh
 To install globally, run as root
 ```
 cd kwin-effect-foldingpopups
-sudo bash ../install.sh
+sudo bash ./install.sh
 ```
